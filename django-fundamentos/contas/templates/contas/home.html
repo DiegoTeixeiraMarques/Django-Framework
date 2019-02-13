@@ -6,5 +6,16 @@
     </head>
     <body>
         <h1>Hello World!</h1>
+
+        <p>Agora são: {{ now }}</p>             <!-- Acesso a variável passada por parametro na view -->
+        <ul>
+        {% for transacao in transacoes %}       <!-- For na linguagem de template do Django 2.0 -->
+            {% if transacao == "t1" %}          <!-- Utilizando linguagem de template Jinja -->
+                <li><b>{{ transacao }}</b></li>
+            {% else %}
+            <li>{{ transacao }}</li>
+            {% endif %}
+        {% endfor %}
+        </ul>
     </body>
 </html>
