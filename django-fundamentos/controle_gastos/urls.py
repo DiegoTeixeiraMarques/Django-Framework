@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from contas.views import home, listagem, nova_transacao
+from contas.views import home, listagem, nova_transacao, update
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', home),
     path('', listagem, name='url_listagem'),
+    path('update/<int:pk>', update, name='url_update'),
     path('nova/', nova_transacao, name='url_nova')              # Alterando o nome da URL para linkar no template listagem.html                     # URL que será direcionada a algum dos métodos importado da VIEW
 ]
