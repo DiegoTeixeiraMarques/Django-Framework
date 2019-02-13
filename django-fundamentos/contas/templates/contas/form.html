@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Template com Django</title>
+    </head>
+    <body>
+        
+        <form method="POST">
+            {% csrf_token %}                        <!-- Evita que alguém altere o formulário e injete informações indevidas -->
+            {{  form.as_p }}                        <!-- Form recebido como parâmetro; "as_p" para colocar um campo abaixo do outro no formulário-->
+            <button type="submit">Salvar</button>   <!-- Botão para envio das informações pelo método POST -->
+        </form>
+    </body>
+</html>
