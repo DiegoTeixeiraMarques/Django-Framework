@@ -10,7 +10,9 @@
             {% csrf_token %}                        <!-- Evita que alguém altere o formulário e injete informações indevidas -->
             {{  form.as_p }}                        <!-- Form recebido como parâmetro; "as_p" para colocar um campo abaixo do outro no formulário-->
             <button type="submit">Salvar</button>   <!-- Botão para envio das informações pelo método POST -->
-            <a href="{% url 'url_delete' transacao.id %}">Remover</a>
-        </form>
+            {% if transacao %}
+                <a href="{% url 'url_delete' transacao.id %}">Remover</a>
+            {% endif %}
+            </form>
     </body>
 </html>
