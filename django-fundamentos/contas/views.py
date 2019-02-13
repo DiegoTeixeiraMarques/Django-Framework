@@ -37,4 +37,10 @@ def update(request, pk):                                                # Parame
         return redirect('url_listagem')                                # Redirecionando para listagem.html para não continuar com /nova na URL mesmo após clicar no botão SALVAR 
                                                                             # e duplicidade no cadastro e evitar que salve por cima após retornar e avançar
     data['form'] = form
-    return render(request, 'contas/form.html', data)   
+    data['transacao'] = transacao
+    return render(request, 'contas/form.html', data) 
+
+def delete(request, pk):
+    transacao = Transacao.objects.get(pk=pk)
+    transacao.delete()
+    return redirect('url_listagem')
