@@ -20,6 +20,6 @@ from contas.views import home, listagem, nova_transacao
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', home),
-    path('', listagem),
-    path('nova/', nova_transacao)                       # URL que será direcionada a algum dos métodos importado da VIEW
+    path('', listagem, name='url_listagem'),
+    path('nova/', nova_transacao, name='url_nova')              # Alterando o nome da URL para linkar no template listagem.html                     # URL que será direcionada a algum dos métodos importado da VIEW
 ]

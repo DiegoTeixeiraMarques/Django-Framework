@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Transacao
 from .form import TransacaoForm
 import datetime
@@ -18,6 +18,11 @@ def listagem(request):
 
 def nova_transacao(request):
     data = {}
-    form = TransacaoForm()                                              # Criando o Form modelado em form.py
+    form = TransacaoForm(request.POST or None)                                              # Criando o Form modelado em form.py
+    
+    if form.is_valid():
+        form.save()
+        return redirect('url_listagem')                                # Redirecionando para listagem.html para não continuar com /nova na URL mesmo após clicar no botão SALVAR 
+                                                                            # e duplicidade no cadastro e evitar que salve por cima após retornar e avançar
     data['form'] = form
     return render(request, 'contas/form.html', data)                    # Enviando Form como parâmetro
