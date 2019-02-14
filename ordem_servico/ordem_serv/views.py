@@ -1,3 +1,7 @@
 from django.shortcuts import render
+from .models import TipoServico
 
-# Create your views here.
+def home(request):
+    lista = {}
+    lista['tipos'] = TipoServico.objects.all()
+    return render(request, 'ordem_serv/home', lista)
