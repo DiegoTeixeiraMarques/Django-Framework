@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import TipoServico, OrdemServico
+
+admin.site.register(TipoServico)
+admin.site.register(OrdemServico)
