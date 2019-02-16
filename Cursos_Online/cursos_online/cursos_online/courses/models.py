@@ -18,3 +18,11 @@ class Course(models.Model):
     update_at = models.DateTimeField('Atualizado em', auto_now=True)                        # Grava data de atualização
 
     objects = CourseManager()                                                               # Instancia um Manager customizado que tem métodos para manipulação do banco de dados
+
+    def __str__(self):
+        return self.name
+
+    class Meta:
+        verbose_name = 'Curso'                                                             # Nome que aparece na opção add curso
+        verbose_name_plural = 'Cursos'                                                     # Nome que aparece para acessar a lista de cursos cadastrados
+        ordering = ['-name']                                                               # Ordena pelo nome de forma decrescente
