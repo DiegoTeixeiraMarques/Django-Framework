@@ -2,4 +2,6 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def home(request):
-    return HttpResponse('Hello World!')
+    data = {}
+    data['usuario'] = 'Diego'
+    return render(request, 'home.html', data)

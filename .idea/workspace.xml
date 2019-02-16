@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bddc2032-b9d6-420a-a393-8aec9c6fac2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +16,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="168">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -27,13 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/urls.py">
+        <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -49,6 +59,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Primeiras-implementações" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -66,14 +81,17 @@
         <option value="$PROJECT_DIR$/ordem_servico/ordem_serv/views.py" />
         <option value="$PROJECT_DIR$/ordem_servico/ordem_servico/urls.py" />
         <option value="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/views.py" />
-        <option value="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/urls.py" />
+        <option value="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/home.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -106,6 +124,14 @@
               <item name="cursos_online" type="462c0819:PsiDirectoryNode" />
               <item name="cursos_online" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Django-Framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Django-Framework" type="462c0819:PsiDirectoryNode" />
+              <item name="Cursos_Online" type="462c0819:PsiDirectoryNode" />
+              <item name="cursos_online" type="462c0819:PsiDirectoryNode" />
+              <item name="cursos_online" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -115,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Projeto-OS" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -144,6 +170,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19764957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -156,7 +183,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.39934355" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.39934355" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32932165" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -221,6 +248,13 @@
     <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_serv/migrations/0001_initial.py" />
     <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_serv/templates/ordem_serv/home.html" />
     <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_serv/admin.py" />
+    <entry file="file://$PROJECT_DIR$/django-fundamentos/contas/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/django-fundamentos/controle_gastos/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -232,20 +266,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_serv/tests.py" />
-    <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_serv/apps.py" />
-    <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_servico/urls.py" />
-    <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_serv/views.py" />
-    <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_serv/models.py" />
-    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/django-fundamentos/contas/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -255,20 +275,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django-fundamentos/contas/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_serv/apps.py" />
+    <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_servico/urls.py" />
+    <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_serv/views.py" />
+    <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_serv/models.py" />
     <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
