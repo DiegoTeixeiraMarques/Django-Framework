@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bddc2032-b9d6-420a-a393-8aec9c6fac2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/templates/courses/details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/courses_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/courses_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/media/courses/images/img002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cursos_Online/cursos_online/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Cursos_Online/cursos_online/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,63 +22,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/models.py">
+        <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="288">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cursos_Online/venv/Scripts/activate.bat">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/contact.html">
+        <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/templates/courses/details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="947">
-              <caret line="98" column="16" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="16" />
+            <state relative-caret-position="672">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -122,11 +89,14 @@
         <option value="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/models.py" />
         <option value="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/admin.py" />
         <option value="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/contact.html" />
+        <option value="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/courses_urls.py" />
+        <option value="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/views.py" />
+        <option value="$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/templates/courses/details.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -170,7 +140,7 @@
               <item name="Cursos_Online" type="462c0819:PsiDirectoryNode" />
               <item name="cursos_online" type="462c0819:PsiDirectoryNode" />
               <item name="cursos_online" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="courses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Django-Framework" type="b2602c69:ProjectViewProjectNode" />
@@ -178,16 +148,7 @@
               <item name="Cursos_Online" type="462c0819:PsiDirectoryNode" />
               <item name="cursos_online" type="462c0819:PsiDirectoryNode" />
               <item name="cursos_online" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django-Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django-Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Cursos_Online" type="462c0819:PsiDirectoryNode" />
-              <item name="cursos_online" type="462c0819:PsiDirectoryNode" />
-              <item name="cursos_online" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="courses" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -197,12 +158,8 @@
               <item name="cursos_online" type="462c0819:PsiDirectoryNode" />
               <item name="cursos_online" type="462c0819:PsiDirectoryNode" />
               <item name="courses" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Django-Framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Django-Framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Cursos_Online" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="courses" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,9 +198,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17017913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34508547" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -350,16 +308,6 @@
     <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_servico/urls.py" />
     <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_serv/views.py" />
     <entry file="file://$PROJECT_DIR$/ordem_servico/ordem_serv/models.py" />
-    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="91" selection-start-line="5" selection-start-column="91" selection-end-line="5" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -368,9 +316,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/views.py">
@@ -389,10 +334,40 @@
     <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/models.py">
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="1176">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/templates/courses/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/venv/Scripts/activate.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1451">
+          <caret line="98" column="16" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -406,34 +381,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cursos_Online/venv/Scripts/activate.bat">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+        <state relative-caret-position="192">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="947">
-          <caret line="98" column="16" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/core/templates/contact.html">
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/courses_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cursos_Online/cursos_online/cursos_online/courses/templates/courses/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
         </state>
       </provider>
     </entry>

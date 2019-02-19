@@ -10,6 +10,7 @@ class Course(models.Model):
     name = models.CharField('Nome', max_length=100)
     slug = models.SlugField('Atalho')
     description = models.TextField('Descrição', blank=True)
+    about = models.TextField('Sobre o curso', blank=True)
     start_date = models.DateField('Data de Início', null=True, blank=True)
     image = models.ImageField(upload_to='courses/images', verbose_name='Image',
                               null=True, blank=True)                                        # Foi criado uma variável em settings para o diretório de imagens do projeto

@@ -1,6 +1,19 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, get_object_or_404
+from .models import Course
 
 def index(request):
-    #template_name = 'courses/index.html'
-    return HttpResponse('Hello')#render(request, template_name)
+    courses = Course.objects.all()
+    template_name = 'courses/index.html'
+    context = {
+        'courses': courses
+    }
+    return render(request, template_name, context)
+
+def details(request, pk):
+    course = get_object_or_404(Course, pk=pk)                                    # Se não encontrar o objecto retorna a página de erro do Django
+    context = {
+        'course': course
+    }
+    template_name = 'courses/details.html'
+    return render(request, template_name, context)
 

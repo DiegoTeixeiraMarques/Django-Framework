@@ -111,3 +111,4 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'cursos_online', 'media')     # Diretório com arquivos de imagem
+MEDIA_URL = '/media/'
